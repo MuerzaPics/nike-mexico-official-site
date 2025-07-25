@@ -1,0 +1,559 @@
+/* Recruitment Page Specific Styles */
+
+/* Hero Section */
+.recruitment-hero {
+    background: linear-gradient(135deg, #111 0%, #333 100%);
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.recruitment-hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+}
+
+.hero-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+/* Department Selection */
+.department-selection {
+    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+
+.department-selection h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #111;
+}
+
+.departments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.dept-btn {
+    background-color: #fff;
+    border: 2px solid #e5e5e5;
+    border-radius: 15px;
+    padding: 30px 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dept-btn:hover {
+    border-color: #e31837;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(227, 24, 55, 0.15);
+}
+
+.dept-btn.active {
+    border-color: #e31837;
+    background-color: #e31837;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(227, 24, 55, 0.25);
+}
+
+.dept-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.dept-btn h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: inherit;
+}
+
+.dept-btn p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.dept-btn.active p {
+    color: #fff;
+}
+
+/* Challenge Section */
+.challenge-section {
+    padding: 80px 0;
+    min-height: 500px;
+}
+
+.challenge-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.challenge-header h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.challenge-header p {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.challenge-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.no-selection {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    border: 2px dashed #ddd;
+}
+
+.no-selection-icon {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.no-selection h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.no-selection p {
+    font-size: 18px;
+    color: #666;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.challenge-card {
+    background-color: #fff;
+    border: 2px solid #e5e5e5;
+    border-radius: 15px;
+    padding: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.challenge-card:hover {
+    border-color: #111;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.challenge-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.challenge-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.challenge-difficulty {
+    display: inline-block;
+    padding: 5px 12px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.challenge-difficulty.easy {
+    background-color: #e8f5e8;
+    color: #2d5a2d;
+}
+
+.challenge-difficulty.medium {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.challenge-difficulty.hard {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.challenge-cta {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.challenge-cta:hover {
+    background-color: #e31837;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 700px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.modal-header {
+    padding: 30px 30px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.modal-header h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #111;
+    margin: 0;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.modal-close {
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: #666;
+    cursor: pointer;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.modal-close:hover {
+    background-color: #f5f5f5;
+    color: #111;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.challenge-detail h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.challenge-detail p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.challenge-instructions {
+    background-color: #f8f9fa;
+    border-left: 4px solid #e31837;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.challenge-instructions h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.challenge-instructions ul {
+    padding-left: 20px;
+}
+
+.challenge-instructions li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.contact-info {
+    background-color: #111;
+    color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-info h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.contact-email {
+    display: inline-block;
+    background-color: #e31837;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.contact-email:hover {
+    background-color: #fff;
+    color: #e31837;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .recruitment-hero h1 {
+        font-size: 36px;
+    }
+    
+    .hero-subtitle {
+        font-size: 18px;
+    }
+    
+    .hero-features {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .departments-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .dept-btn {
+        padding: 25px 20px;
+    }
+    
+    .challenge-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 20px;
+    }
+    
+    .modal-header {
+        padding: 20px 20px 15px;
+    }
+    
+    .modal-header h2 {
+        font-size: 24px;
+    }
+    
+    .modal-body {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .recruitment-hero {
+        padding: 60px 0;
+    }
+    
+    .recruitment-hero h1 {
+        font-size: 28px;
+    }
+    
+    .hero-subtitle {
+        font-size: 16px;
+    }
+    
+    .department-selection {
+        padding: 60px 0;
+    }
+    
+    .department-selection h2 {
+        font-size: 28px;
+    }
+    
+    .challenge-section {
+        padding: 60px 0;
+    }
+    
+    .challenge-header h2 {
+        font-size: 28px;
+    }
+    
+    .dept-btn {
+        padding: 20px 15px;
+    }
+    
+    .dept-icon {
+        font-size: 36px;
+    }
+    
+    .dept-btn h3 {
+        font-size: 20px;
+    }
+    
+    .challenge-card {
+        padding: 20px;
+    }
+    
+    .challenge-card h3 {
+        font-size: 20px;
+    }
+}
+
+/* Loading Animation */
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #e31837;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Error State */
+.error-message {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 10px;
+    color: #721c24;
+    margin: 20px 0;
+}
+
+.error-message h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.error-message p {
+    font-size: 16px;
+}
