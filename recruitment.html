@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con Nike - Atracción de Talento</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/recruitment.css">
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <span>Obtén MSI, producto exclusivo, envío y devoluciones gratis al ser miembro. <a href="#" class="join-link">Únete.</a></span>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <div class="nike-logo">NIKE</div>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="#" class="nav-link">Lo Nuevo</a></li>
+                    <li><a href="#" class="nav-link">Hombre</a></li>
+                    <li><a href="#" class="nav-link">Mujer</a></li>
+                    <li><a href="#" class="nav-link">Niños</a></li>
+                    <li><a href="#" class="nav-link">Ofertas</a></li>
+                    <li><a href="#" class="nav-link">SNKRS</a></li>
+                    <li><a href="recruitment.html" class="nav-link recruitment-link active">Trabaja con Nike</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <input type="text" placeholder="Buscar" class="search-input">
+                    <div class="nav-icons">
+                        <span class="icon">♡</span>
+                        <span class="icon">🛒</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="recruitment-container">
+        <!-- Hero Section -->
+        <section class="recruitment-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Atracción de Talento en Nike</h1>
+                    <p class="hero-subtitle">
+                        Demuestra tu creatividad y afinidad con la cultura Nike mediante retos interactivos. 
+                        Selecciona el área en la que deseas postularte y comienza tu desafío.
+                    </p>
+                    <div class="hero-features">
+                        <div class="feature">
+                            <div class="feature-icon">🎯</div>
+                            <h3>Retos Personalizados</h3>
+                            <p>Desafíos específicos para cada departamento</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🚀</div>
+                            <h3>Innovación</h3>
+                            <p>Muestra tu pensamiento creativo y estratégico</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">⚡</div>
+                            <h3>Cultura Nike</h3>
+                            <p>Conecta con nuestros valores y misión</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Department Selection -->
+        <section class="department-selection">
+            <div class="container">
+                <h2>Selecciona tu área de interés</h2>
+                <div class="departments-grid">
+                    <button class="dept-btn" data-dept="Finanzas">
+                        <div class="dept-icon">💰</div>
+                        <h3>Finanzas</h3>
+                        <p>Análisis financiero y estrategia económica</p>
+                    </button>
+                    
+                    <button class="dept-btn" data-dept="Marketing">
+                        <div class="dept-icon">📈</div>
+                        <h3>Marketing</h3>
+                        <p>Campañas creativas y estrategia de marca</p>
+                    </button>
+                    
+                    <button class="dept-btn" data-dept="Análisis de Datos">
+                        <div class="dept-icon">📊</div>
+                        <h3>Análisis de Datos</h3>
+                        <p>Insights y análisis predictivo</p>
+                    </button>
+                    
+                    <button class="dept-btn" data-dept="Desarrollo de Producto">
+                        <div class="dept-icon">🎨</div>
+                        <h3>Desarrollo de Producto</h3>
+                        <p>Diseño e innovación de productos</p>
+                    </button>
+                    
+                    <button class="dept-btn" data-dept="Tecnologías de la Información">
+                        <div class="dept-icon">💻</div>
+                        <h3>Tecnologías de la Información</h3>
+                        <p>Desarrollo de software y sistemas</p>
+                    </button>
+                    
+                    <button class="dept-btn" data-dept="Operaciones">
+                        <div class="dept-icon">⚙️</div>
+                        <h3>Operaciones</h3>
+                        <p>Logística y cadena de suministro</p>
+                    </button>
+                    
+                    <button class="dept-btn" data-dept="Recursos Humanos">
+                        <div class="dept-icon">👥</div>
+                        <h3>Recursos Humanos</h3>
+                        <p>Gestión de talento y cultura organizacional</p>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Challenge List -->
+        <section class="challenge-section">
+            <div class="container">
+                <div class="challenge-header">
+                    <h2 id="selectedDepartment">Selecciona un departamento para ver los retos</h2>
+                    <p id="departmentDescription">Elige una de las áreas arriba para comenzar tu experiencia de reclutamiento.</p>
+                </div>
+                
+                <div class="challenge-list" id="challengeList">
+                    <div class="no-selection">
+                        <div class="no-selection-icon">🎯</div>
+                        <h3>¡Comienza tu aventura profesional!</h3>
+                        <p>Selecciona el departamento que más te interese y descubre retos únicos diseñados para evaluar tu potencial en Nike.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Challenge Detail Modal -->
+    <div id="challengeModal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Título del Reto</h2>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="challenge-detail" id="challengeDetail">
+                    <!-- Challenge content will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Únete a Nike</h4>
+                    <ul>
+                        <li><a href="#">Carreras</a></li>
+                        <li><a href="#">Estudiantes y Graduados</a></li>
+                        <li><a href="#">Cultura Nike</a></li>
+                        <li><a href="#">Diversidad e Inclusión</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">Estado del Pedido</a></li>
+                        <li><a href="#">Envío y Entrega</a></li>
+                        <li><a href="#">Devoluciones</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Acerca de Nike</h4>
+                    <ul>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Propósito</a></li>
+                        <li><a href="#">Sustentabilidad</a></li>
+                        <li><a href="#">Inversionistas</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nike, Inc. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/recruitment.js"></script>
+</body>
+</html>
