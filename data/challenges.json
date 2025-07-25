@@ -1,0 +1,475 @@
+{
+  "Finanzas": [
+    {
+      "id": 1,
+      "title": "Desafío de Proyecciones Financieras",
+      "brief": "Analiza la viabilidad financiera para lanzar una nueva línea de productos deportivos.",
+      "difficulty": "medium",
+      "description": "Nike está considerando lanzar una nueva línea de calzado deportivo enfocada en sostenibilidad. Tu reto es crear un análisis financiero completo que evalúe la viabilidad de este proyecto.",
+      "instructions": [
+        "Realiza un análisis de mercado para productos sostenibles en el sector deportivo",
+        "Calcula los costos de producción estimados considerando materiales eco-friendly",
+        "Proyecta ventas para los primeros 3 años del producto",
+        "Desarrolla un plan de financiamiento y flujo de caja",
+        "Presenta recomendaciones basadas en tu análisis ROI"
+      ],
+      "contact": "finanzas.reclutamiento@nike.com"
+    },
+    {
+      "id": 2,
+      "title": "Optimización de Costos Operativos",
+      "brief": "Proponer estrategias para reducir costos operativos en una fábrica sin comprometer calidad.",
+      "difficulty": "hard",
+      "description": "Una de nuestras fábricas en Asia ha experimentado un aumento del 15% en costos operativos. Necesitamos identificar oportunidades de optimización manteniendo nuestros estándares de calidad.",
+      "instructions": [
+        "Analiza los principales drivers de costos en manufactura deportiva",
+        "Identifica al menos 5 áreas de oportunidad para reducción de costos",
+        "Propone un plan de implementación con timeline y métricas",
+        "Evalúa el impacto en calidad y propone medidas de mitigación"
+      ],
+      "contact": "finanzas.reclutamiento@nike.com"
+    },
+    {
+      "id": 3,
+      "title": "Análisis de Inversión en Tecnología",
+      "brief": "Evalúa la rentabilidad de invertir en tecnología de automatización para centros de distribución.",
+      "difficulty": "medium",
+      "description": "Nike está considerando una inversión de $50M en tecnología de automatización para sus centros de distribución globales.",
+      "instructions": [
+        "Investiga tecnologías de automatización disponibles en el mercado",
+        "Calcula los costos totales de implementación (CAPEX y OPEX)",
+        "Estima los ahorros en costos laborales y eficiencias operativas"
+      ],
+      "contact": "finanzas.reclutamiento@nike.com"
+    },
+    {
+      "id": 4,
+      "title": "Estrategia de Precios para Mercados Emergentes",
+      "brief": "Desarrolla una estrategia de precios para expandir Nike en mercados emergentes de América Latina.",
+      "difficulty": "hard",
+      "description": "Nike busca expandir su presencia en mercados emergentes de América Latina.",
+      "instructions": [
+        "Analiza el poder adquisitivo y comportamiento del consumidor",
+        "Estudia la competencia local y estrategias de pricing",
+        "Propone una estructura de precios diferenciada por segmento"
+      ],
+      "contact": "finanzas.reclutamiento@nike.com"
+    },
+    {
+      "id": 5,
+      "title": "Modelo de Negocio para Nike Digital",
+      "brief": "Crea un modelo financiero para evaluar nuevas oportunidades de negocio en el ecosistema digital de Nike.",
+      "difficulty": "hard",
+      "description": "Con el crecimiento del e-commerce y servicios digitales, Nike necesita evaluar nuevas oportunidades de monetización.",
+      "instructions": [
+        "Identifica 3 oportunidades de negocio digital para Nike",
+        "Desarrolla modelos de revenue para cada oportunidad",
+        "Estima costos de desarrollo, marketing y operación"
+      ],
+      "contact": "finanzas.reclutamiento@nike.com"
+    }
+  ],
+  "Marketing": [
+    {
+      "id": 1,
+      "title": "Campaña de Inclusión Deportiva",
+      "brief": "Diseña una campaña que promueva la inclusión y diversidad en el deporte, reflejando los valores de Nike.",
+      "difficulty": "medium",
+      "description": "Nike busca lanzar una campaña global que celebre la diversidad en el deporte y promueva la inclusión de comunidades subrepresentadas.",
+      "instructions": [
+        "Define el concepto creativo central y mensaje clave de la campaña",
+        "Identifica 3 comunidades objetivo y adapta el mensaje para cada una",
+        "Propone activaciones en diferentes canales (digital, eventos, retail)",
+        "Desarrolla una estrategia de influencers y embajadores de marca"
+      ],
+      "contact": "marketing.reclutamiento@nike.com"
+    },
+    {
+      "id": 2,
+      "title": "Lanzamiento de Producto Sostenible",
+      "brief": "Crea la estrategia de marketing para el lanzamiento de una línea de productos 100% sostenibles.",
+      "difficulty": "medium",
+      "description": "Nike está lanzando su primera línea de calzado 100% reciclable.",
+      "instructions": [
+        "Desarrolla el posicionamiento y propuesta de valor única",
+        "Crea una estrategia de contenido educativo sobre sostenibilidad",
+        "Propone partnerships estratégicos con organizaciones ambientales"
+      ],
+      "contact": "marketing.reclutamiento@nike.com"
+    },
+    {
+      "id": 3,
+      "title": "Estrategia Digital para Gen Z",
+      "brief": "Desarrolla una estrategia de marketing digital específica para conectar con la Generación Z.",
+      "difficulty": "easy",
+      "description": "La Generación Z representa el futuro de Nike, pero sus hábitos de consumo y comunicación son únicos.",
+      "instructions": [
+        "Analiza los comportamientos digitales y preferencias de la Gen Z",
+        "Identifica las plataformas y formatos de contenido más efectivos",
+        "Propone una estrategia de contenido auténtico y user-generated"
+      ],
+      "contact": "marketing.reclutamiento@nike.com"
+    },
+    {
+      "id": 4,
+      "title": "Activación para Grandes Eventos Deportivos",
+      "brief": "Diseña una activación de marca para los próximos Juegos Olímpicos que genere engagement global.",
+      "difficulty": "hard",
+      "description": "Los Juegos Olímpicos representan la máxima expresión del deporte.",
+      "instructions": [
+        "Desarrolla un concepto de activación que conecte con la audiencia global",
+        "Propone experiencias tanto físicas como digitales",
+        "Crea una estrategia de real-time marketing durante los juegos"
+      ],
+      "contact": "marketing.reclutamiento@nike.com"
+    },
+    {
+      "id": 5,
+      "title": "Reposicionamiento de Marca en Mercado Local",
+      "brief": "Desarrolla una estrategia para reposicionar Nike en el mercado mexicano, conectando con la cultura local.",
+      "difficulty": "medium",
+      "description": "Nike busca fortalecer su conexión con la cultura mexicana, celebrando el deporte local y los atletas nacionales.",
+      "instructions": [
+        "Analiza la percepción actual de Nike en México vs. competencia",
+        "Identifica oportunidades de conexión con la cultura deportiva mexicana",
+        "Propone partnerships con atletas, equipos y eventos locales"
+      ],
+      "contact": "marketing.reclutamiento@nike.com"
+    }
+  ],
+  "Análisis de Datos": [
+    {
+      "id": 1,
+      "title": "Predicción de Demanda con Machine Learning",
+      "brief": "Desarrolla un modelo predictivo para optimizar la gestión de inventario basado en datos históricos.",
+      "difficulty": "hard",
+      "description": "Nike maneja millones de productos en cientos de mercados. Necesitamos un modelo de machine learning que prediga la demanda con mayor precisión.",
+      "instructions": [
+        "Analiza los factores que influyen en la demanda de productos Nike",
+        "Propone variables y fuentes de datos relevantes (clima, eventos, tendencias)",
+        "Diseña la arquitectura de un modelo de ML para predicción de demanda"
+      ],
+      "contact": "datos.reclutamiento@nike.com"
+    },
+    {
+      "id": 2,
+      "title": "Análisis de Comportamiento del Consumidor Digital",
+      "brief": "Analiza el customer journey digital para identificar oportunidades de optimización en conversión.",
+      "difficulty": "medium",
+      "description": "Con el crecimiento del e-commerce, necesitamos entender mejor cómo los consumidores interactúan con nuestros canales digitales.",
+      "instructions": [
+        "Mapea el customer journey completo desde awareness hasta compra",
+        "Identifica puntos de fricción y oportunidades de mejora",
+        "Propone métricas clave para medir la efectividad de cada touchpoint"
+      ],
+      "contact": "datos.reclutamiento@nike.com"
+    },
+    {
+      "id": 3,
+      "title": "Segmentación Avanzada de Clientes",
+      "brief": "Crea un modelo de segmentación de clientes que permita personalizar estrategias de marketing y producto.",
+      "difficulty": "medium",
+      "description": "Nike tiene millones de clientes con comportamientos diversos.",
+      "instructions": [
+        "Propone variables de segmentación relevantes (comportamiento, preferencias, valor)",
+        "Desarrolla un modelo de clustering con técnicas avanzadas",
+        "Define perfiles detallados de cada segmento con insights clave"
+      ],
+      "contact": "datos.reclutamiento@nike.com"
+    },
+    {
+      "id": 4,
+      "title": "Optimización de Precios Dinámicos",
+      "brief": "Desarrolla un sistema de pricing dinámico que maximice ingresos considerando demanda, competencia y inventario.",
+      "difficulty": "hard",
+      "description": "El mercado deportivo es altamente competitivo y dinámico.",
+      "instructions": [
+        "Analiza factores que impactan la elasticidad de precios en productos Nike",
+        "Diseña algoritmos de pricing considerando competencia e inventario",
+        "Propone un framework de testing A/B para validar estrategias"
+      ],
+      "contact": "datos.reclutamiento@nike.com"
+    },
+    {
+      "id": 5,
+      "title": "Analytics de Performance de Atletas",
+      "brief": "Crea un sistema de análisis de datos deportivos para optimizar el rendimiento de atletas patrocinados.",
+      "difficulty": "hard",
+      "description": "Nike patrocina atletas de élite mundial.",
+      "instructions": [
+        "Identifica métricas clave de performance por deporte",
+        "Propone fuentes de datos (wearables, video, biomecánica)",
+        "Desarrolla modelos predictivos para prevención de lesiones"
+      ],
+      "contact": "datos.reclutamiento@nike.com"
+    }
+  ],
+  "Desarrollo de Producto": [
+    {
+      "id": 1,
+      "title": "Innovación en Calzado Sostenible",
+      "brief": "Diseña un concepto de calzado deportivo utilizando únicamente materiales reciclados y procesos sostenibles.",
+      "difficulty": "hard",
+      "description": "La sostenibilidad es el futuro del deporte. Nike necesita innovar en materiales y procesos.",
+      "instructions": [
+        "Investiga materiales reciclados disponibles para calzado deportivo",
+        "Propone un diseño que mantenga performance sin comprometer sostenibilidad",
+        "Desarrolla el proceso de manufactura considerando huella de carbono"
+      ],
+      "contact": "producto.reclutamiento@nike.com"
+    },
+    {
+      "id": 2,
+      "title": "Wearable Technology Integration",
+      "brief": "Desarrolla un concepto que integre tecnología wearable en productos Nike para mejorar performance deportivo.",
+      "difficulty": "hard",
+      "description": "La tecnología wearable está transformando el deporte.",
+      "instructions": [
+        "Identifica oportunidades de integración tecnológica en calzado o ropa",
+        "Propone sensores y métricas relevantes para diferentes deportes",
+        "Diseña la experiencia de usuario y conectividad con apps Nike"
+      ],
+      "contact": "producto.reclutamiento@nike.com"
+    },
+    {
+      "id": 3,
+      "title": "Customización Masiva de Productos",
+      "brief": "Crea un sistema que permita a los consumidores personalizar productos Nike manteniendo eficiencia operativa.",
+      "difficulty": "medium",
+      "description": "Los consumidores buscan productos únicos que reflejen su personalidad.",
+      "instructions": [
+        "Analiza las preferencias de personalización de diferentes segmentos",
+        "Propone opciones de customización técnicamente viables",
+        "Diseña el proceso de manufactura para productos personalizados"
+      ],
+      "contact": "producto.reclutamiento@nike.com"
+    },
+    {
+      "id": 4,
+      "title": "Productos para Deportes Emergentes",
+      "brief": "Identifica deportes emergentes y desarrolla conceptos de productos específicos para estas disciplinas.",
+      "difficulty": "medium",
+      "description": "El mundo del deporte evoluciona constantemente.",
+      "instructions": [
+        "Investiga deportes emergentes con potencial de crecimiento global",
+        "Analiza las necesidades específicas de equipment para cada deporte",
+        "Desarrolla conceptos de productos diferenciados para 2-3 deportes"
+      ],
+      "contact": "producto.reclutamiento@nike.com"
+    },
+    {
+      "id": 5,
+      "title": "Adaptación de Productos para Discapacidades",
+      "brief": "Diseña productos Nike adaptados para atletas con diferentes tipos de discapacidades.",
+      "difficulty": "medium",
+      "description": "El deporte paralímpico y adaptado está creciendo.",
+      "instructions": [
+        "Investiga las necesidades específicas de atletas con diferentes discapacidades",
+        "Propone adaptaciones de diseño para calzado y ropa deportiva",
+        "Desarrolla sistemas de ajuste y personalización únicos"
+      ],
+      "contact": "producto.reclutamiento@nike.com"
+    }
+  ],
+  "Tecnologías de la Información": [
+    {
+      "id": 1,
+      "title": "Arquitectura de E-commerce Escalable",
+      "brief": "Diseña la arquitectura técnica para soportar el crecimiento del e-commerce Nike a nivel global.",
+      "difficulty": "hard",
+      "description": "El e-commerce de Nike debe manejar millones de transacciones diarias durante eventos como Black Friday.",
+      "instructions": [
+        "Propone una arquitectura cloud-native escalable y resiliente",
+        "Diseña estrategias de caching y optimización de performance",
+        "Desarrolla un plan de disaster recovery y alta disponibilidad"
+      ],
+      "contact": "ti.reclutamiento@nike.com"
+    },
+    {
+      "id": 2,
+      "title": "Plataforma de Datos Unificada",
+      "brief": "Crea una plataforma que unifique datos de todos los canales Nike para generar insights en tiempo real.",
+      "difficulty": "hard",
+      "description": "Nike genera datos en múltiples touchpoints (retail, digital, apps, eventos).",
+      "instructions": [
+        "Diseña la arquitectura de data lake/warehouse para datos multi-canal",
+        "Propone pipelines de ETL/ELT para procesamiento en tiempo real",
+        "Desarrolla APIs para acceso a datos por diferentes equipos"
+      ],
+      "contact": "ti.reclutamiento@nike.com"
+    },
+    {
+      "id": 3,
+      "title": "App Móvil de Próxima Generación",
+      "brief": "Desarrolla el concepto técnico para la próxima generación de apps Nike con IA y personalización avanzada.",
+      "difficulty": "medium",
+      "description": "Las apps Nike deben evolucionar para ofrecer experiencias hiperpersonalizadas.",
+      "instructions": [
+        "Propone funcionalidades innovadoras usando IA y machine learning",
+        "Diseña la arquitectura técnica para personalización en tiempo real",
+        "Desarrolla conceptos de AR/VR para try-on virtual"
+      ],
+      "contact": "ti.reclutamiento@nike.com"
+    },
+    {
+      "id": 4,
+      "title": "Sistema de Inventory Management Inteligente",
+      "brief": "Desarrolla un sistema que optimice automáticamente el inventario usando IA y datos en tiempo real.",
+      "difficulty": "hard",
+      "description": "La gestión de inventario es crítica para Nike.",
+      "instructions": [
+        "Diseña algoritmos de optimización de inventario con machine learning",
+        "Integra datos de demanda, clima, eventos y tendencias sociales",
+        "Desarrolla alertas automáticas y recomendaciones de restock"
+      ],
+      "contact": "ti.reclutamiento@nike.com"
+    },
+    {
+      "id": 5,
+      "title": "Blockchain para Supply Chain Transparency",
+      "brief": "Implementa blockchain para crear transparencia total en la cadena de suministro Nike.",
+      "difficulty": "hard",
+      "description": "Los consumidores demandan transparencia sobre el origen y proceso de manufactura.",
+      "instructions": [
+        "Diseña la arquitectura blockchain para tracking de supply chain",
+        "Propone smart contracts para automatizar procesos de verificación",
+        "Desarrolla interfaces para que consumidores verifiquen autenticidad"
+      ],
+      "contact": "ti.reclutamiento@nike.com"
+    }
+  ],
+  "Operaciones": [
+    {
+      "id": 1,
+      "title": "Optimización de Supply Chain Global",
+      "brief": "Rediseña la cadena de suministro Nike para reducir costos y tiempos de entrega en un 25%.",
+      "difficulty": "hard",
+      "description": "La supply chain de Nike es compleja, con proveedores en Asia y consumidores globales.",
+      "instructions": [
+        "Mapea la supply chain actual identificando cuellos de botella",
+        "Propone estrategias de nearshoring y diversificación de proveedores",
+        "Desarrolla un modelo de distribución hub-and-spoke optimizado"
+      ],
+      "contact": "operaciones.reclutamiento@nike.com"
+    },
+    {
+      "id": 2,
+      "title": "Automatización de Centros de Distribución",
+      "brief": "Diseña un plan de automatización para centros de distribución que mejore eficiencia y reduzca errores.",
+      "difficulty": "medium",
+      "description": "Los centros de distribución Nike manejan millones de productos.",
+      "instructions": [
+        "Analiza procesos actuales en centros de distribución",
+        "Propone tecnologías de automatización (robots, AI, IoT)",
+        "Desarrolla plan de implementación por fases"
+      ],
+      "contact": "operaciones.reclutamiento@nike.com"
+    },
+    {
+      "id": 3,
+      "title": "Estrategia de Sostenibilidad Operacional",
+      "brief": "Crea un plan para hacer las operaciones Nike carbon-neutral en 5 años.",
+      "difficulty": "hard",
+      "description": "Nike se ha comprometido a ser carbon-neutral.",
+      "instructions": [
+        "Audita la huella de carbono actual de operaciones Nike",
+        "Identifica oportunidades de reducción de emisiones por área",
+        "Propone inversiones en energías renovables y eficiencia"
+      ],
+      "contact": "operaciones.reclutamiento@nike.com"
+    },
+    {
+      "id": 4,
+      "title": "Gestión de Crisis en Supply Chain",
+      "brief": "Desarrolla un plan de contingencia para mantener operaciones durante crisis globales.",
+      "difficulty": "medium",
+      "description": "COVID-19 demostró la vulnerabilidad de supply chains globales.",
+      "instructions": [
+        "Identifica riesgos potenciales en la supply chain global",
+        "Desarrolla escenarios de crisis y planes de respuesta",
+        "Propone estrategias de diversificación y redundancia"
+      ],
+      "contact": "operaciones.reclutamiento@nike.com"
+    },
+    {
+      "id": 5,
+      "title": "Optimización de Last-Mile Delivery",
+      "brief": "Mejora la entrega de última milla para ofrecer same-day delivery en ciudades principales.",
+      "difficulty": "medium",
+      "description": "Los consumidores esperan entregas cada vez más rápidas.",
+      "instructions": [
+        "Analiza opciones de last-mile delivery (drones, lockers, partnerships)",
+        "Propone red de micro-fulfillment centers en ciudades clave",
+        "Desarrolla algoritmos de ruteo y optimización de entregas"
+      ],
+      "contact": "operaciones.reclutamiento@nike.com"
+    }
+  ],
+  "Recursos Humanos": [
+    {
+      "id": 1,
+      "title": "Programa de Diversidad e Inclusión",
+      "brief": "Diseña un programa integral para aumentar diversidad y crear una cultura más inclusiva en Nike.",
+      "difficulty": "medium",
+      "description": "Nike busca ser líder en diversidad e inclusión.",
+      "instructions": [
+        "Analiza la situación actual de diversidad en Nike vs. benchmarks",
+        "Propone estrategias de reclutamiento para aumentar diversidad",
+        "Desarrolla programas de mentoring y desarrollo para grupos subrepresentados"
+      ],
+      "contact": "rh.reclutamiento@nike.com"
+    },
+    {
+      "id": 2,
+      "title": "Future of Work en Nike",
+      "brief": "Desarrolla la estrategia de trabajo híbrido que maximice productividad y bienestar de empleados.",
+      "difficulty": "medium",
+      "description": "El trabajo remoto cambió las expectativas de empleados.",
+      "instructions": [
+        "Analiza preferencias de empleados sobre modalidades de trabajo",
+        "Propone políticas de trabajo híbrido por tipo de rol",
+        "Desarrolla estrategias para mantener cultura y colaboración"
+      ],
+      "contact": "rh.reclutamiento@nike.com"
+    },
+    {
+      "id": 3,
+      "title": "Programa de Desarrollo de Liderazgo",
+      "brief": "Crea un programa que desarrolle la próxima generación de líderes Nike con enfoque en innovación.",
+      "difficulty": "medium",
+      "description": "Nike necesita líderes que puedan navegar la transformación digital.",
+      "instructions": [
+        "Identifica competencias clave para líderes del futuro en Nike",
+        "Diseña curriculum de desarrollo con metodologías innovadoras",
+        "Propone sistema de mentoring con líderes senior"
+      ],
+      "contact": "rh.reclutamiento@nike.com"
+    },
+    {
+      "id": 4,
+      "title": "Employee Experience Digital",
+      "brief": "Digitaliza la experiencia del empleado desde onboarding hasta desarrollo profesional.",
+      "difficulty": "easy",
+      "description": "Los empleados esperan experiencias digitales seamless.",
+      "instructions": [
+        "Mapea el employee journey identificando pain points",
+        "Propone soluciones digitales para cada touchpoint",
+        "Desarrolla métricas de satisfacción y engagement"
+      ],
+      "contact": "rh.reclutamiento@nike.com"
+    },
+    {
+      "id": 5,
+      "title": "Programa de Wellness y Bienestar",
+      "brief": "Crea un programa integral de bienestar que refleje los valores deportivos de Nike.",
+      "difficulty": "easy",
+      "description": "Nike debe liderar en bienestar de empleados, siendo una empresa deportiva.",
+      "instructions": [
+        "Analiza las necesidades de bienestar de empleados Nike",
+        "Propone programas de fitness, nutrición y salud mental",
+        "Desarrolla partnerships con expertos en wellness"
+      ],
+      "contact": "rh.reclutamiento@nike.com"
+    }
+  ]
+}
